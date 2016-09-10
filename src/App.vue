@@ -1,6 +1,15 @@
 <template>
   <div id="app">
-    <h1>{{ msg }}</h1>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Your Organization</span>
+        <nav class="mdl-navigation">
+        </nav>
+      </div>
+        <main class="mdl-layout__content">
+          <!-- route outlet -->
+        </main>
+    </div>
   </div>
 </template>
 
